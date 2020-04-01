@@ -1,0 +1,41 @@
+.navbar-css:hover{
+    background-color : black;
+    color : white !important;
+    border-radius : 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-nav li:not(:nth-child(3)){
+        display: none;
+    }
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../images/back.png');
+}
+
+.carousel-control-next-icon {
+    background-image: url('../images/next.png');
+}
+
+.searchbar:focus {
+    outline: none;
+}
+
+/* .recycler-list-1 {
+	overflow-x: auto;
+    white-space: nowrap;
+    margin: 0px 40px;
+    overflow : hidden;
+}
+
+.recycler-list-1 div{
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+} */
+
+.arrow-button:hover {
+    transition: transform 0.3s linear;
+    transform: scale(1.5);
+}
